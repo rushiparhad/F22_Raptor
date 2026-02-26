@@ -1,4 +1,4 @@
-# AgriChain — Farm-to-Market Intelligence Platform (Prototype)
+# AgriChain — Farm to Market Intelligence Platform
 
 AgriChain is an **India-focused farm-to-market intelligence platform** designed to reduce post-harvest losses and improve farmer income by helping farmers **decide *when* to harvest and *where* to sell**.
 
