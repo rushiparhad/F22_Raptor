@@ -1,0 +1,317 @@
+[
+  {
+    "success": true,
+    "state": "Maharashtra",
+    "district": "Ahmednagar",
+    "commodity": "Tomato",
+    "best_market": "Rahuri APMC",
+    "predicted_avg_price_next_7_days": 1271.32,
+    "predicted_min_price": 1061.98,
+    "predicted_max_price": 1548.47,
+    "trend": "increasing",
+    "forecast_days": 7,
+    "prediction_timestamp": "2026-02-26T13:29:06.624039",
+    "all_markets": [
+      {
+        "market": "Rahuri APMC",
+        "avg_price": 1271.32,
+        "trend": "increasing"
+      },
+      {
+        "market": "Sangamner APMC",
+        "avg_price": 463.99,
+        "trend": "decreasing"
+      },
+      {
+        "market": "Ahmednagar APMC",
+        "avg_price": 357.17,
+        "trend": "decreasing"
+      },
+      {
+        "market": "Shrirampur APMC",
+        "avg_price": 215.29,
+        "trend": "decreasing"
+      },
+      {
+        "market": "Rahata APMC",
+        "avg_price": 183.63,
+        "trend": "increasing"
+      }
+    ]
+  },
+  {
+    "success": true,
+    "state": "Maharashtra",
+    "district": "Ahmednagar",
+    "commodity": "Onion",
+    "best_market": "Kopargaon APMC",
+    "predicted_avg_price_next_7_days": 664.19,
+    "predicted_min_price": -1013.3,
+    "predicted_max_price": 997.35,
+    "trend": "decreasing",
+    "forecast_days": 7,
+    "prediction_timestamp": "2026-02-26T13:29:06.844833",
+    "all_markets": [
+      {
+        "market": "Kopargaon APMC",
+        "avg_price": 664.19,
+        "trend": "decreasing"
+      },
+      {
+        "market": "Rahuri(Vambori) APMC",
+        "avg_price": 262.37,
+        "trend": "increasing"
+      },
+      {
+        "market": "Newasa(Ghodegaon) APMC",
+        "avg_price": 230.02,
+        "trend": "decreasing"
+      },
+      {
+        "market": "Sangamner APMC",
+        "avg_price": 227.21,
+        "trend": "increasing"
+      },
+      {
+        "market": "Parner APMC",
+        "avg_price": 226.09,
+        "trend": "increasing"
+      },
+      {
+        "market": "Om Chaitanya Multistate Agro Purpose CoOp Society  APMC",
+        "avg_price": -28.98,
+        "trend": "increasing"
+      },
+      {
+        "market": "Shevgaon APMC",
+        "avg_price": -136.75,
+        "trend": "increasing"
+      },
+      {
+        "market": "Rahuri APMC",
+        "avg_price": -367.23,
+        "trend": "increasing"
+      }
+    ]
+  },
+  {
+    "success": true,
+    "state": "Maharashtra",
+    "district": "Ahmednagar",
+    "commodity": "Potato",
+    "best_market": "Shrirampur APMC",
+    "predicted_avg_price_next_7_days": 695.34,
+    "predicted_min_price": -2005.26,
+    "predicted_max_price": 1172.8,
+    "trend": "decreasing",
+    "forecast_days": 7,
+    "prediction_timestamp": "2026-02-26T13:29:07.023358",
+    "all_markets": [
+      {
+        "market": "Shrirampur APMC",
+        "avg_price": 695.34,
+        "trend": "decreasing"
+      },
+      {
+        "market": "Rahata APMC",
+        "avg_price": 509.85,
+        "trend": "decreasing"
+      },
+      {
+        "market": "Ahmednagar APMC",
+        "avg_price": 493.74,
+        "trend": "decreasing"
+      },
+      {
+        "market": "Rahuri APMC",
+        "avg_price": 490.61,
+        "trend": "increasing"
+      }
+    ]
+  },
+  {
+    "success": true,
+    "state": "Maharashtra",
+    "district": "Pune",
+    "commodity": "Tomato",
+    "best_market": "Pune(Pimpri) APMC",
+    "predicted_avg_price_next_7_days": 1114.12,
+    "predicted_min_price": 1071.08,
+    "predicted_max_price": 1198.48,
+    "trend": "increasing",
+    "forecast_days": 7,
+    "prediction_timestamp": "2026-02-26T13:29:07.269558",
+    "all_markets": [
+      {
+        "market": "Pune(Pimpri) APMC",
+        "avg_price": 1114.12,
+        "trend": "increasing"
+      },
+      {
+        "market": "Pune(Manjri) APMC",
+        "avg_price": 1074.44,
+        "trend": "decreasing"
+      },
+      {
+        "market": "Pune(Khadiki) APMC",
+        "avg_price": 1034.0,
+        "trend": "increasing"
+      },
+      {
+        "market": "Khed(Chakan) APMC",
+        "avg_price": 643.28,
+        "trend": "decreasing"
+      },
+      {
+        "market": "Junnar(Narayangaon) APMC",
+        "avg_price": 638.77,
+        "trend": "increasing"
+      },
+      {
+        "market": "Pune APMC",
+        "avg_price": 358.59,
+        "trend": "increasing"
+      },
+      {
+        "market": "Pune(Moshi) APMC",
+        "avg_price": 351.27,
+        "trend": "decreasing"
+      }
+    ]
+  },
+  {
+    "success": true,
+    "state": "Maharashtra",
+    "district": "Nashik",
+    "commodity": "Onion",
+    "best_market": "Lasalgaon(Niphad) APMC",
+    "predicted_avg_price_next_7_days": 1136.06,
+    "predicted_min_price": 1097.0,
+    "predicted_max_price": 1203.7,
+    "trend": "decreasing",
+    "forecast_days": 7,
+    "prediction_timestamp": "2026-02-26T13:29:07.793395",
+    "all_markets": [
+      {
+        "market": "Lasalgaon(Niphad) APMC",
+        "avg_price": 1136.06,
+        "trend": "decreasing"
+      },
+      {
+        "market": "Chandvad APMC",
+        "avg_price": 992.16,
+        "trend": "decreasing"
+      },
+      {
+        "market": "Manmad APMC",
+        "avg_price": 961.56,
+        "trend": "decreasing"
+      },
+      {
+        "market": "Dindori(Vani) APMC",
+        "avg_price": 952.98,
+        "trend": "decreasing"
+      },
+      {
+        "market": "Nasik APMC",
+        "avg_price": 874.83,
+        "trend": "decreasing"
+      },
+      {
+        "market": "Kalvan APMC",
+        "avg_price": 867.97,
+        "trend": "increasing"
+      },
+      {
+        "market": "Umrane APMC",
+        "avg_price": 861.41,
+        "trend": "increasing"
+      },
+      {
+        "market": "Lasalgaon(Vinchur) APMC",
+        "avg_price": 670.44,
+        "trend": "decreasing"
+      },
+      {
+        "market": "Yeola APMC",
+        "avg_price": 661.9,
+        "trend": "decreasing"
+      },
+      {
+        "market": "Pimpalgaon Baswant(Saykheda) APMC",
+        "avg_price": 649.07,
+        "trend": "increasing"
+      },
+      {
+        "market": "Lasalgaon APMC",
+        "avg_price": 542.4,
+        "trend": "increasing"
+      },
+      {
+        "market": "Devala APMC",
+        "avg_price": 534.3,
+        "trend": "increasing"
+      },
+      {
+        "market": "Satana APMC",
+        "avg_price": 526.66,
+        "trend": "increasing"
+      },
+      {
+        "market": "Pimpalgaon APMC",
+        "avg_price": 504.98,
+        "trend": "decreasing"
+      },
+      {
+        "market": "Nampur APMC",
+        "avg_price": 416.2,
+        "trend": "decreasing"
+      },
+      {
+        "market": "Nandgaon APMC",
+        "avg_price": 373.4,
+        "trend": "decreasing"
+      },
+      {
+        "market": "Sinner APMC",
+        "avg_price": 357.56,
+        "trend": "increasing"
+      }
+    ]
+  },
+  {
+    "success": true,
+    "state": "Maharashtra",
+    "district": "Nagpur",
+    "commodity": "Potato",
+    "best_market": "Kamthi APMC",
+    "predicted_avg_price_next_7_days": 2287.15,
+    "predicted_min_price": 2236.28,
+    "predicted_max_price": 2412.81,
+    "trend": "increasing",
+    "forecast_days": 7,
+    "prediction_timestamp": "2026-02-26T13:29:07.929403",
+    "all_markets": [
+      {
+        "market": "Kamthi APMC",
+        "avg_price": 2287.15,
+        "trend": "increasing"
+      },
+      {
+        "market": "Hingna APMC",
+        "avg_price": 674.18,
+        "trend": "increasing"
+      },
+      {
+        "market": "Nagpur APMC",
+        "avg_price": 635.05,
+        "trend": "increasing"
+      },
+      {
+        "market": "Ramtek APMC",
+        "avg_price": -188.5,
+        "trend": "decreasing"
+      }
+    ]
+  }
+]
