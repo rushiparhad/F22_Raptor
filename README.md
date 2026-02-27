@@ -1,125 +1,176 @@
-# AgriChain Pro
+🌾 AgriChain — Farm-to-Market Intelligence Platform
+Python
+FastAPI
+React
+AI Powered
+Hackathon Project
 
-AgriChain Pro is an agriculture decision support platform.  
-It helps farmers decide:
+Production-ready AI decision platform for farmers
+Helping farmers decide when to harvest, where to sell, and how to transport safely.
 
-- when to harvest
-- which market (mandi/APMC) to sell in
-- expected selling price
-- spoilage risk during transport
+✨ Why AgriChain?
+Farmers lose income not only from low prices, but from bad timing + high spoilage risk + weak transport decisions.
+AgriChain combines multi-model intelligence to convert uncertainty into one clear, explainable recommendation.
 
-## Project Overview
+What AgriChain solves
+Harvest timing uncertainty
+Mandi/market selection confusion
+Post-harvest spoilage losses
+Profit vs risk trade-off complexity
+🧠 Core Intelligence Modules
+Harvest Timing Intelligence
+Recommends optimal harvest window based on weather-risk-aware logic.
 
-This project has:
+Price Forecast Intelligence (Prophet-based)
+Forecasts market price trends and identifies attractive sell opportunities.
 
-- `AgriChain_Final_Project/backend` → FastAPI backend with prediction models
-- `AgriChain_Final_Project/frontend` → React dashboard for farmers and users
+🧪 Spoilage Intelligence Engine (Core Innovation)
+Predicts post-harvest quality risk under real transport and weather conditions.
 
-## Core AI/ML Models (3 Models)
+Decision Fusion Engine
+Balances price upside with spoilage and timing constraints to output the final recommendation.
 
-### 1. Price Prediction Model
-- Predicts expected crop price for markets.
-- Compares available markets.
-- Suggests the best market with higher expected return.
+🧪 Spoilage Intelligence Engine (Core Innovation)
+This is AgriChain’s differentiator.
 
-### 2. Harvest Timing Model
-- Predicts recommended harvest timing (in days).
-- Uses crop + location context.
-- Helps farmer plan the harvest window.
+What it analyzes
+🌡️ Temperature exposure
+💧 Humidity conditions
+🚚 Transport duration
+🧺 Crop shelf life
+📦 Transport stress factors
+⏱️ Remaining safe time before quality drop
+Risk output
+LOW
+MEDIUM
+HIGH
+Biological reasoning (simple & practical)
+Temperature ↑ → respiration ↑ → faster decay
+Long transport → moisture loss + microbial growth
+High humidity + delay = accelerated spoilage risk
+Why this matters for Indian farmers
+Even when mandi price is high, long risky transport can destroy value.
+AgriChain helps farmers avoid “high price but low realized profit” decisions.
 
-### 3. Spoilage Risk Model
-- Estimates spoilage risk during transportation.
-- Uses travel and handling-related signals.
-- Gives safer transport guidance.
-
-## Final Recommendation Logic
-
-The backend combines outputs from all 3 models to generate one final advice:
-
-- best market to sell
-- expected price
-- harvest timing
-- spoilage risk and transport recommendation
-
-## How Farmers Can Use It
-
-1. Open the dashboard.
-2. Enter crop name and location.
-3. Click **Run Analysis**.
-4. Read final recommendation:
-   - harvest in how many days
-   - best mandi to sell
-   - expected price per quintal
-   - distance and route to market
-   - spoilage risk level (Low/Medium/High)
-   - simple transport advice
-
-## Clone and Run the Project
-
-## 1) Clone Repository
-
-```bash
-git clone <your-repo-url>
-cd AgriChain_Final_Project
-```
-
-## 2) Run Backend
-
-```bash
-cd AgriChain_Final_Project/backend
-python -m venv .venv
-```
-
-Windows:
-```bash
-.venv\Scripts\activate
-```
-
-Linux/Mac:
-```bash
-source .venv/bin/activate
-```
-
-Install dependencies and start backend:
-
-```bash
+🏗️ System Architecture
+Farmer Input
+    ↓
+Frontend Dashboard
+    ↓
+FastAPI Backend
+    ├── Harvest Model
+    ├── Price Forecast Model (Prophet)
+    ├── Spoilage Risk Model
+    ↓
+Decision Engine
+    ↓
+Explainable Recommendation
+✅ Features
+✅ AI harvest advisor
+✅ 7-day mandi price forecasting
+✅ Market comparison engine
+✅ Spoilage risk prediction
+✅ Transport safety analysis
+✅ Profit vs Risk decision logic
+✅ Interactive farmer tutorial (Hindi/Marathi/English)
+✅ Market selection simulation
+✅ Explainable AI recommendations
+🧰 Tech Stack
+Backend
+Python
+FastAPI
+Prophet
+Pandas
+NumPy
+ML feature engineering
+Frontend
+React
+Vite
+TailwindCSS
+TypeScript
+AI Concepts
+Time Series Forecasting
+Risk Modeling
+Feature Engineering
+Decision Fusion System
+📁 Repository Structure
+agrichain_production_ready/
+ ├── backend/
+ │    ├── harvest/
+ │    ├── price/
+ │    ├── spoilage/
+ │    ├── integration/
+ │    └── main_api.py
+ └── frontend/
+      └── React + Vite Farmer Dashboard
+⚙️ How To Run
+1) Backend
+cd agrichain_production_ready/backend
 pip install -r requirements.txt
-python -m uvicorn main_api:app --host 127.0.0.1 --port 8000
-```
+uvicorn main_api:app --reload
+Backend URL: http://127.0.0.1:8000
 
-Backend health endpoint:
-
-```text
-http://127.0.0.1:8000/health
-```
-
-## 3) Run Frontend
-
-```bash
-cd AgriChain_Final_Project/frontend
+2) Frontend
+cd agrichain_production_ready/frontend
 npm install
 npm run dev
-```
+Frontend URL: http://localhost:5173
 
-Open frontend in browser (port shown in terminal, usually 8080/8081/8082):
+🚀 Future Scalability
+Real-time mandi API integration
+Satellite weather feed ingestion
+Cold-chain logistics optimization
+Mobile app deployment (farmer-first UX)
+Multi-state model expansion across India
+Reinforcement learning-based pricing strategy
+🌍 Hackathon Impact
+AgriChain is built for real-world outcomes:
 
-```text
-http://127.0.0.1:<port>
-```
+📉 Reduce post-harvest losses
+💰 Increase farmer realized profit
+📊 Enable data-driven agriculture decisions
+🧑‍🌾 Deliver accessible AI for low digital literacy users
+🏁 Hackathon Positioning
+AgriChain combines technical depth + practical usability + real social impact:
 
-## API Endpoint (Main)
+Multi-model AI architecture
+Explainable recommendations
+Multilingual onboarding
+Farmer-centric product design
+Built to move from prototype to deployment-ready agri intelligence.
 
-```text
-GET /agrichain?crop=<crop>&location=<location>
-```
+⚙️ Running the Project
+Prerequisites
+Python 3.10+
+Node.js 18+ and npm
+Git
+1) Clone Repository
+git clone <your-repo-url>
+cd agrichain_production_ready
+2) Start Backend (FastAPI)
+cd backend
+python3 -m venv .venv
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn main_api:app --reload --host 127.0.0.1 --port 8000
+Backend runs at: http://127.0.0.1:8000
+API docs: http://127.0.0.1:8000/docs
 
-Example:
+3) Start Frontend (React + Vite)
+Open a new terminal:
 
-```text
-http://127.0.0.1:8000/agrichain?crop=onion&location=pune
-```
+cd frontend
+npm install
+npm run dev
+Frontend runs at: http://localhost:5173
+(Note: if 5173 is busy, Vite will auto-pick another port like 5174/8080.)
 
-## Tech Stack
-
-- Backend: FastAPI, Python, Pandas, Numpy
-- Frontend: React, TypeScript, Tailwind CSS, Recharts, React-Leaflet, i18next
+4) Verify End-to-End
+Open frontend URL in browser
+Submit crop + location
+Ensure backend health/analysis requests succeed
+Quick Troubleshooting
+If vite: Permission denied:
+chmod +x node_modules/.bin/vite
+If backend import/module errors: re-check virtualenv activation and reinstall requirements.
+If CORS/API connection fails: confirm backend is running on 127.0.0.1 (line 8000).
